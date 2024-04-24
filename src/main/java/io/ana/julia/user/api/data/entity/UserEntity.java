@@ -1,6 +1,5 @@
-package io.ana.julia.stock.data.entity;
+package io.ana.julia.user.api.data.entity;
 
-import io.ana.julia.stock.data.dto.UserDtoType;
 import jakarta.persistence.*;
 
 @Entity

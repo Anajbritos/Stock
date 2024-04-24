@@ -1,8 +1,7 @@
-package io.ana.julia.stock.utils;
+package io.ana.julia.user.api.utils;
 
-import io.ana.julia.stock.data.dto.UserDto;
-import io.ana.julia.stock.data.entity.UserEntity;
-import io.ana.julia.stock.data.entity.UserEntityType;
+import io.ana.julia.user.api.data.dto.UserDto;
+import io.ana.julia.user.api.data.entity.UserEntity;
 import org.junit.jupiter.api.Assertions;
 
 public class AssertsUtils {

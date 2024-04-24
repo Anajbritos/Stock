@@ -1,9 +1,9 @@
-package io.ana.julia.stock.utils;
+package io.ana.julia.user.api.utils;
 
-import io.ana.julia.stock.data.dto.UserDto;
-import io.ana.julia.stock.data.dto.UserDtoType;
-import io.ana.julia.stock.data.entity.UserEntity;
-import io.ana.julia.stock.data.entity.UserEntityType;
+import io.ana.julia.user.api.data.dto.UserDto;
+import io.ana.julia.user.api.data.dto.UserDtoType;
+import io.ana.julia.user.api.data.entity.UserEntity;
+import io.ana.julia.user.api.data.entity.UserEntityType;
 
 public class DataFactory {
 

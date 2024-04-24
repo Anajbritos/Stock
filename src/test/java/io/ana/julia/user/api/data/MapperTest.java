@@ -1,10 +1,10 @@
-package io.ana.julia.stock.data;
+package io.ana.julia.user.api.data;
 
-import io.ana.julia.stock.data.dto.UserDto;
-import io.ana.julia.stock.data.entity.UserEntity;
-import io.ana.julia.stock.data.mapper.UserMapper;
-import io.ana.julia.stock.utils.AssertsUtils;
-import io.ana.julia.stock.utils.DataFactory;
+import io.ana.julia.user.api.data.dto.UserDto;
+import io.ana.julia.user.api.data.entity.UserEntity;
+import io.ana.julia.user.api.data.mapper.UserMapper;
+import io.ana.julia.user.api.utils.AssertsUtils;
+import io.ana.julia.user.api.utils.DataFactory;
 import org.junit.jupiter.api.Test;
 
 public class MapperTest {

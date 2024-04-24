@@ -1,4 +1,4 @@
-package io.ana.julia.stock.data.dto;
+package io.ana.julia.user.api.data.dto;
 
 public class UserDto {
     private Long id;

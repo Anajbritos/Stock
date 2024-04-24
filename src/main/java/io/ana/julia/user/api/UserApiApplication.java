@@ -1,13 +1,13 @@
-package io.ana.julia.stock;
+package io.ana.julia.user.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class stockApplication {
+public class UserApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(stockApplication.class, args);
+		SpringApplication.run(UserApiApplication.class, args);
 	}
 
 }

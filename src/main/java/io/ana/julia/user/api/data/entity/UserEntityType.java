@@ -1,4 +1,4 @@
-package io.ana.julia.stock.data.entity;
+package io.ana.julia.user.api.data.entity;
 
 public enum UserEntityType {
     CLIENT,SUPPLIER,ADMIN;

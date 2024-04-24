@@ -8,7 +8,7 @@ public class UserEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long code;
+    private Long id;
     @Column(name = "name")
     private String name;
     @Column(name = "document")
@@ -24,13 +24,13 @@ public class UserEntity {
     }
 
     public UserEntity(
-            Long code,
+            Long id,
             String name,
             String cpf,
             String email,
             String password,
             UserEntityType userEntityType) {
-        this.code = code;
+        this.id = id;
         this.name = name;
         this.cpf = cpf;
         this.email = email;
@@ -38,12 +38,12 @@ public class UserEntity {
         this.userEntityType = userEntityType;
     }
 
-    public void setCode(Long code) {
-        this.code = code;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public Long getCode() {
-        return this.code;
+    public Long getId() {
+        return this.id;
     }
 
     public void setName(String name) {

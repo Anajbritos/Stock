@@ -1,7 +1,7 @@
 package io.ana.julia.stock.data.dto;
 
 public class UserDto {
-    private Long code;
+    private Long id;
     private String name;
     private String cpf;
     private String email;
@@ -13,13 +13,13 @@ public class UserDto {
     }
 
     public UserDto(
-            Long code,
+            Long id,
             String name,
             String cpf,
             String email,
             String password,
             UserDtoType userDtoType) {
-        this.code = code;
+        this.id = id;
         this.name = name;
         this.cpf = cpf;
         this.email = email;
@@ -27,12 +27,12 @@ public class UserDto {
         this.userDtoType = userDtoType;
     }
 
-    public void setCode(Long code) {
-        this.code = code;
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public Long getCode() {
-        return this.code;
+    public Long getId() {
+        return this.id;
     }
 
     public void setName(String name) {

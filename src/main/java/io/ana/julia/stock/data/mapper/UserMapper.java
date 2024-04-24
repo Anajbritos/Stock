@@ -11,7 +11,7 @@ public class UserMapper {
 
     public UserDto toDto(UserEntity userEntity) {
         return new UserDto(
-                userEntity.getCode(),
+                userEntity.getId(),
                 userEntity.getName(),
                 userEntity.getCpf(),
                 userEntity.getEmail(),
@@ -22,27 +22,27 @@ public class UserMapper {
 
     public UserEntity toEntity(UserDto userDto) {
         return new UserEntity(
-                userDto.getCode(),
+                userDto.getId(),
                 userDto.getName(),
                 userDto.getCpf(),
                 userDto.getEmail(),
                 userDto.getPassword(),
-               toEntityType(userDto.getUserDtoType())
+                toEntityType(userDto.getUserDtoType())
         );
     }
 
     public UserDtoType toDtoType(UserEntityType userEntityType) {
         return switch (userEntityType) {
-            case CLIENTE -> UserDtoType.CLIENTE;
-            case FORNECEDOR -> UserDtoType.FORNECEDOR;
+            case CLIENT -> UserDtoType.CLIENT;
+            case SUPPLIER -> UserDtoType.SUPPLIER;
             case ADMIN -> UserDtoType.ADMIN;
         };
     }
 
     public UserEntityType toEntityType(UserDtoType userDtoType) {
         return switch (userDtoType) {
-            case CLIENTE -> UserEntityType.CLIENTE;
-            case FORNECEDOR -> UserEntityType.FORNECEDOR;
+            case CLIENT -> UserEntityType.CLIENT;
+            case SUPPLIER -> UserEntityType.SUPPLIER;
             case ADMIN -> UserEntityType.ADMIN;
         };
     }

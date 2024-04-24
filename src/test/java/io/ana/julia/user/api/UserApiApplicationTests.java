@@ -1,10 +1,10 @@
-package io.ana.julia.stock;
+package io.ana.julia.user.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class stockApplicationTests {
+class UserApiApplicationTests {
 
 	@Test
 	void contextLoads() {

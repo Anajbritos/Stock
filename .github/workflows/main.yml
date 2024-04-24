@@ -1,4 +1,4 @@
-name: Stock
+name: User-Api
 
 on:
   push:
